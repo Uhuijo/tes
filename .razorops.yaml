@@ -1,0 +1,6 @@
+tasks:
+  rspec:
+    runner: ruby:2.6 
+    steps:
+    - checkout
+    - run: lscpu
