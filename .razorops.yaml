@@ -26,4 +26,4 @@ tasks:
     depends: [build-image, unit-test]
     steps:
     - run: kubectl set image deployment.v1.apps/api main=gcr.io/razorops/demo:$CI_COMMIT_SHA
-    when: branch == 'staging'
+    when: branch == 'main'
