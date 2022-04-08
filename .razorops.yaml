@@ -20,7 +20,7 @@ tasks:
         - MYSQL_ROOT_HOST=%
     steps:
     - checkout
-    - run: bundle exec rspec
+    - run: lscpu
 
   deploy-staging:
     depends: [build-image, unit-test]
