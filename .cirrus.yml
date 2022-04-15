@@ -1,3 +1,4 @@
-container:
-  image: node:latest
-test_script: ls
+test_task:
+  container:
+    image: node:latest
+  test_script: ls
